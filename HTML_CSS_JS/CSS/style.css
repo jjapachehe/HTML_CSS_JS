@@ -1,0 +1,65 @@
+body { 
+    /*background color for entire pages*/
+    background-color: lightsteelblue;
+}
+
+.topPanel {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: blanchedalmond;
+    border-radius: 25px;
+    border-width: 1px;
+    text-align: center;
+    background-color: cyan;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.intermediatePanel {
+    background-color: lightcyan;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hobbiesPanel {
+    background-color: lightcyan;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.referencesPanel {
+    background-color: lightcyan;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.referencesPanel img {
+    display: block;
+    margin: auto;
+
+}
+
+div {
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+#d1 {
+    width: 200px;
+    text-align: center;
+}
+#d2 {
+    width: 200px;
+    text-align: center;
+}
+
+.orangeback {
+    background-color: orange;
+}
+
+.fuchsiaback {
+    background-color: fuchsia;
+}
