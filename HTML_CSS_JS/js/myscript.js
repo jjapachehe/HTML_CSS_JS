@@ -26,3 +26,27 @@ function changeText() {
     divElement1.innerHTML = "Erste";
     divElement2.innerHTML = "Zweite";
 }
+
+function doRed() {
+    var dd1 = document.getElementById("d1");
+    dd1.style.backgroundColor="red";
+    var ctx = dd1.getContext("2d");
+    ctx.fillStyle="yellow";
+    ctx.fillRect(10,10,40,40);
+    ctx.fillRect(60,10,40,40);
+
+    ctx.fillStyle = "black";
+    ctx.font = "30px Arial";
+    ctx.fillText = ("Hello", 10,80);
+}
+
+
+function doOrange() {
+    var dd2 = document.getElementById("d2");
+    dd2.style.backgroundColor="white";
+    dd2.style.backgroundColor="orange";
+    var ctx = dd2.getContext("2d");
+    ctx.fillStyle="orange";
+    ctx.fillRect(10,10,40,40);
+    
+}
